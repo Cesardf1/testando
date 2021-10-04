@@ -1,0 +1,74 @@
+#botaobugado {
+    bottom: -15px !important;
+}
+
+.imagemredonda {
+    /*arredonda a imagem*/
+    border-radius: 100%;
+    /*deixa a imagem quadrada*/
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /*nao deixa que a imagem fique esticada*/
+    object-fit: cover;
+    /*deixa a imagem centralizada*/
+    /*background-position: center center;*/
+}
+
+.titulo {
+    position: relative;
+    text-align: center;
+}
+
+.subtitulo {
+    position: relative;
+    text-align: center;
+}
+
+.botao1 {
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #000308 5%, #010408 100%);
+    background-color: #000308;
+    border-radius: 10px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #01050d;
+}
+
+.botao1:hover {
+    background: linear-gradient(to bottom, #010408 5%, #000308 100%);
+    background-color: #010408;
+}
+
+.botao1:active {
+    position: relative;
+    top: 1px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    padding-bottom: 110px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
